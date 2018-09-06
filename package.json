@@ -1,0 +1,24 @@
+{
+  "name": "cv-landing-page",
+  "version": "1.0.0",
+  "description": "My personal CV Landing Page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -p 8081 -c-i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jianshen92/cv-landing-page.git"
+  },
+  "author": "Yap Jian Shen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jianshen92/cv-landing-page/issues"
+  },
+  "homepage": "https://github.com/jianshen92/cv-landing-page#readme",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "npm": "^6.2.0"
+  }
+}
