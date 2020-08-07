@@ -1,0 +1,12 @@
+##
+# docker-compose.gcp.yml
+#
+# Usage:
+#   export DOCKER_IMAGE_TAG=$(git rev-parse --short HEAD)
+#   docker-compose -f docker-compose.yml -f docker-compose.gcp.yml
+##
+version: '3'
+
+services:
+ node:
+   image: gcr.io/my-personal-website-215617/portfolio:${DOCKER_IMAGE_TAG:-latest}
